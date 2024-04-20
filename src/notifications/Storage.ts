@@ -99,7 +99,6 @@ class Storage {
                 body: message,
                 data: subtitle,
                 icon,
-                vibrate,
                 silent
             });
             not.onclick = onClick || null;
